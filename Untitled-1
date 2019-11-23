@@ -1,0 +1,21 @@
+11.16.2019 notes
+
+ - ruby: theres an implicit return on functions.  Don't have to use return
+ - everything is an object
+ - the helper files rails builds are modules that can be reused throughout the rails sphere.  
+    not sure how that works
+ - the common arr methods don't mutate the array. To do so, use arr.arr_method!.  
+    The "bang" exclamation mutates the arr
+ - this is a block { |i| puts i * 2}. Convention for blocks - one line use brackets, more than one line use do
+ - chaining is very powerful for ruby. use it
+ - For ruby hash, which is really an object, use : (colon) or fat arrow => to identify key, value pairs
+ - Also for hashes { name: "kellyn", email: 'someemail@email' } is the same as 
+        { :name => "kellyn }
+ - For this, you must be consistent with hashes.  Must use the same syntax
+ - Can iterate over a hash with key,value pairs
+ - inspect methods returns the value of item
+ - parathetheses in function calls are optional!!!! WTF
+ - last argument in a function call if a hash, doesn't require curly brackets
+ - self is the same as this
+ - ruby built in data structures: array, hashes, ranges
+ - you can modify ruby classes like strings, arrays, etc. Pretty cool!!
